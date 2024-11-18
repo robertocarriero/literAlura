@@ -1,4 +1,4 @@
-<em> # Proyecto LiterAlura </em>
+ # Proyecto LiterAlura 
 
 **LiterAlura** es una aplicación de gestión de libros que consume la API pública de Gutendex para buscar y registrar información sobre libros. Además, permite realizar búsquedas avanzadas, listar libros por idioma, y consultar autores y sus detalles en una base de datos. Es un proyecto desarrollado con **Spring Boot**, **JPA**, y **REST API**.
 
@@ -52,11 +52,10 @@
 
 git clone https://github.com/tuusuario/literalura.git
 cd literalura
-2. Configura la base de datos:
-o Crea una base de datos en POSTGRES llamada literalura.
-o Configura las credenciales en el archivo application.properties:
-properties
-Copiar código
+2. **Configura la base de datos:**
+*Crea una base de datos en POSTGRES llamada literalura.*
+*Configura las credenciales en el archivo application.properties:properties*
+**Copiar código**
 spring.datasource.url=jdbc:mysql://localhost:3306/literalura
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña

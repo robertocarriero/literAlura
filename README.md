@@ -47,43 +47,6 @@
    **La aplicación utiliza la API pública de Gutendex para obtener información sobre libros.**
    *Más información en https://gutendex.com/.*
 
-## 📝 Instalación y uso
-1. **Clona este repositorio:**
-
-git clone https://github.com/tuusuario/literalura.git
-cd literalura
-2. **Configura la base de datos:**
-*Crea una base de datos en POSTGRES llamada literalura.*
-*Configura las credenciales en el archivo application.properties:properties*
-**Copiar código**
-spring.datasource.url=jdbc:mysql://localhost:3306/literalura
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-3. Ejecuta la aplicación:
-o Con IntelliJ IDEA o cualquier IDE de tu preferencia:
- Importa el proyecto como un proyecto Maven.
- Ejecuta la clase principal LiterAluraApplication.
-o
-2. Configura la base de datos:
-o Crea una base de datos en Postgres llamada literalura.
-o Configura las credenciales en el archivo application.properties:
-properties
-Copiar código
-spring.datasource.url=jdbc:mysql://localhost:3306/literalura
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-3. Ejecuta la aplicación:
-o Con IntelliJ IDEA o cualquier IDE de tu preferencia:
- Importa el proyecto como un proyecto Maven.
- Ejecuta la clase principal LiterAluraApplication.
-o O desde la línea de comandos:
-bash
-Copiar código
-mvn spring-boot:run
-4. Interacción con la aplicación:
-o Accede al menú desde la terminal y explora las diferentes funcionalidades.
-o Los libros y autores se guardarán automáticamente en la base de datos.
-
 ### 📜 Licencia
 **Este proyecto está bajo la licencia MIT.**
 *👨💻 Desarrollado por Roberto Carriero 📌*

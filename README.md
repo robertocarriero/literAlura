@@ -66,7 +66,7 @@ o Con IntelliJ IDEA o cualquier IDE de tu preferencia:
  Ejecuta la clase principal LiterAluraApplication.
 o
 2. Configura la base de datos:
-o Crea una base de datos en MySQL llamada literalura.
+o Crea una base de datos en Postgres llamada literalura.
 o Configura las credenciales en el archivo application.properties:
 properties
 Copiar código
